@@ -1,4 +1,3 @@
-/* Define the number of leaves to be used in the animation */
 const NUMBER_OF_LEAVES = 70;
 
 /* 
@@ -55,6 +54,12 @@ function durationValue(value)
 }
 
 
+/*
+    Uses an img element to create each leaf. "Leaves.css" implements two spin 
+    animations for the leaves: clockwiseSpin and counterclockwiseSpinAndFlip. This
+    function determines which of these spin animations should be applied to each leaf.
+    
+*/
 function createALeaf()
 {
     /* Start by creating a wrapper div, and an empty img element */
